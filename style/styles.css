@@ -2,6 +2,26 @@ html {
  font-size: 18px;
 }
 
+article {
+ display: flex;
+ position: relative;
+ left: 50px;
+ border: 10px solid blue; 
+}
+
 article p {
  font-size: 2rem;
+ color: blue;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article h2 {
+ font-size: 3rem;
+ color: violet;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ transition: color 60ms ease-in 20ms;
+}
+
+article h2:hover {
+ color: blueviolet;
 }
