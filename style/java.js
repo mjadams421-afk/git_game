@@ -11,6 +11,19 @@ function switchA() {
 //underground celler option
 celler=document.getElementById('option2');
 
+ function switchB() {
+ celler.style.fontSize='100px';
+ celler.innerHTML='You entered the celler';
+ }
+
+ celler.addEventListener('click',switchB);
 
 //leave the area option
 leave=document.getElementById('option3');
+
+function switchC() {
+ leave.style.fontSize='100px';
+ leave.innerHTML='You left the area';
+}
+
+leave.addEventListener('click',switchC);

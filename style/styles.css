@@ -5,6 +5,7 @@ html {
 header {
  position: relative;
  left: 50px;
+ width: 100%;
  font-size: 3rem;
  color: red;
  border: 5px solid red;
@@ -15,8 +16,10 @@ article {
  flex-flow: column wrap;
  flex-grow: space-between;
  position: relative;
- left: 50px;
  border: 10px solid blue; 
+ left: 50px;
+ width: 100%;
+ background-color: blanchedalmond;
 }
 
 article p {
