@@ -1,7 +1,7 @@
 //house option
 house=document.getElementById('option1');
 
-function switchA {
+function switchA() {
  house.style.fontSize='100px';
  house.innerHTML='You entered the house';
 }
