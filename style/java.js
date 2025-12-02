@@ -1,3 +1,16 @@
+//random background color
+value=getElementById('intro')
+
+
+function random(number) {
+  return Math.floor(Math.random() * (number + 1));
+}
+
+value.addEventListener("click", () => {
+  const rndCol = `rgb(${random(255)} ${random(255)} ${random(255)})`;
+  document.body.style.backgroundColor = rndCol;
+});
+
 //house option
 house=document.getElementById('option1');
 
