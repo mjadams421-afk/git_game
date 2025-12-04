@@ -17,7 +17,6 @@ article {
  flex-grow: space-between;
  position: relative;
  border: 10px solid blue; 
- left: 50px;
  width: 100%;
  background-color: blanchedalmond;
 }
@@ -40,4 +39,21 @@ article h2:hover {
  color: blueviolet;
  font-size: 5rem;
  left: 200px;
+}
+
+figure p {
+ font-size: 2rem;
+ color: violet;
+ display: flex;
+ position: relative;
+ left: 50%;
+ transition: color 600ms ease-in 200ms, font-size 600ms ease-in 200ms,
+ left 600ms linear 200ms, top 600ms linear 200ms;
+}
+
+figure p:hover {
+ color: blueviolet;
+ font-size: 3rem;
+ left: 80%;
+ top: 80px;
 }
