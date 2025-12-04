@@ -32,9 +32,12 @@ article h2 {
  font-size: 3rem;
  color: violet;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
- transition: color 60ms ease-in 20ms;
+ transition: color 600ms ease-in 200ms, font-size 600ms ease-in 200ms,
+ left 600ms ease-in 200ms;
 }
 
 article h2:hover {
  color: blueviolet;
+ font-size: 5rem;
+ left: 200px;
 }

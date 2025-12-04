@@ -1,5 +1,5 @@
 //random background color
-value=getElementById('intro')
+value=document.getElementById('intro');
 
 
 function random(number) {
@@ -20,6 +20,26 @@ function switchA() {
 }
 
  house.addEventListener('click',switchA);
+
+ //house option upstairs
+ upstairs=document.getElementById('option1A');
+
+ function switch1A() {
+ upstairs.style.fontSize='100px';
+ upstairs.innerHTML='You went upstairs';
+ }
+
+ upstairs.addEventListener('click',switch1A);
+
+ //house option downstairs
+downstaris=document.getElementById('option1B');
+
+function switch1B() {
+ downstaris.style.fontSize='100px';
+ downstaris.innerHTML='You went downstairs';
+}
+
+ downstairs.addEventListener('click',switch1B);
 
 //underground celler option
 celler=document.getElementById('option2');
