@@ -57,3 +57,13 @@ figure p:hover {
  left: 80%;
  top: 80px;
 }
+
+footer {
+ position: relative;
+ left: 50px;
+ width: 100%;
+ font-size: 2rem;
+ color: green;
+ border: 5px solid green;
+}
+

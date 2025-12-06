@@ -61,3 +61,28 @@ function down() {
 }
 
  downstairs.addEventListener('click',down);
+
+// Number Game Logic
+let currentNumber = 0;
+
+function updateDisplay() {
+  document.getElementById('numberDisplay').innerText = `Your current number is: ${currentNumber}`;
+}
+
+function increaseNumber() {
+  currentNumber += 1;
+  updateDisplay();
+}
+
+function decreaseNumber() {
+  currentNumber -= 1;
+  updateDisplay();
+}
+
+function resetNumber() {
+  currentNumber = 0;
+  updateDisplay();
+}
+
+// Initialize display
+updateDisplay();  

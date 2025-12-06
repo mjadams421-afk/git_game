@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+     <title>
+      Number Game
+     </title>
+    <link href="../style/styles.css" type="text/css" rel="stylesheet">
+    <script src="../style/java.js"></script>
+    </head>
+    <header id="intro">
+     <h1>The Number Game</h1>
+    </header>
+    <article>
+        <p>This page is for tracking your number progress in the game.</p>
+        <p id="numberDisplay">Your current number is: 0</p>
+        <button onclick="increaseNumber()">Increase Number</button>
+        <button onclick="decreaseNumber()">Decrease Number</button>
+        <button onclick="resetNumber()">Reset Number</button>
+    </article>
+    <footer>
+      <form action="" method="post">
+      <label for="number"> Your # here </label>
+      <input type="text" name="input" id="number">
+      <input type="submit" value="Submit" onclick="setNumber(); return false;">
+      </form>
+    </footer>
+
+    <script src="../style/java.js"></script>
+  </html>
