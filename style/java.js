@@ -6,24 +6,11 @@ function random(number) {
   return Math.floor(Math.random() * (number + 1));
 }
 
-value.addEventListener("mouseout", () => {
+value.addEventListener("dblclick", () => {
   const rndCol = `rgb(${random(255)} ${random(255)} ${random(255)})`;
   document.body.style.backgroundColor = rndCol;
 });
 
-//Adding a number
-add=document.querySelector('figure p');
-
-let i=0;
-
-function number() {
-  i += 1;
-  add.innerHTML = `The number is now ${i}`;
- for (let i=0; i<=100; i++) {
-    console.log(i);
- }}
- 
-add.addEventListener('dblclick',number);
 
 //house option
 house=document.getElementById('option1');
